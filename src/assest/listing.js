@@ -5,7 +5,9 @@ export default class Listing extends React.Component {
         const { item } = this.props;
         return (
             <ul className="list-group" >
-                <li className="list-group-item  my-1"><a href="#" className="text-decoration-none text-capitalize">{item.task}</a></li>
+                <li className="list-group-item  my-1">
+                    <a href="#" className="text-decoration-none text-capitalize">{item.value}</a>
+                </li>
             </ul>
         )
     }
